@@ -989,8 +989,9 @@
     }
     .header {
         background-size: cover;
+        background-position: none;
         background-attachment: fixed;
-        height: auto;
+        height: auto; 
         .container {
             padding: 0;
             margin: 0;

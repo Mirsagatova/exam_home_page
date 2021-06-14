@@ -1194,9 +1194,10 @@
     width: 100%;
   }
   .header {
+    background-size: cover;
+    background-position: none;
     background-attachment: fixed;
-    background-position: right center;
-    height: 170vh;
+    height: auto;
   }
   .header .container {
     padding: 0;
