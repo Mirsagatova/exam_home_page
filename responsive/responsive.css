@@ -1207,6 +1207,7 @@
   .header .container .header-left-side {
     width: 100%;
     padding: 60px 0 50px 0;
+    text-align: center;
   }
   .header .container .header-left-side .header-title {
     width: 60%;
