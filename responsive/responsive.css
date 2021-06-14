@@ -683,7 +683,7 @@
     top: 63px;
     left: -100%;
     background-color: #333a44;
-    height: 100vh;
+    height: auto;
     width: 60%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -934,7 +934,7 @@
     top: 63px;
     left: -100%;
     background-color: #333a44;
-    height: 83vh;
+    height: 70vh;
     width: 70%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1268,7 +1268,7 @@
     top: 63px;
     left: -100%;
     background-color: #333a44;
-    height: 90vh;
+    height: 80vh;
     width: 70%;
     display: -webkit-box;
     display: -ms-flexbox;
