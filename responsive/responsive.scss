@@ -40,21 +40,29 @@
         width: 700px;
     }
     .header {
+        height: auto;
         .container {
             padding: 0;
             margin: 0;
             width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             .header-left-side {
-                width: 100%;
+                width: 75%;
+                text-align: center;
                 .header-title {
-                    width: 60%;
+                    width: 100%;
                     margin: 0 auto 20px auto;
                 }
                 .left-arrow {
                     top: 450.5px;
+                    
                 }
                 .right-arrow {
+                    display: none;
                     img {
+                        
                     }
                 }
                 .left {
@@ -67,6 +75,7 @@
                         padding: 0;
                     }
                     .get-scootin {
+                        margin: 0 auto;
                     }
                 }
             }
@@ -505,7 +514,10 @@
         
     }
     .header {
-        background-position: right -60px center;
+        background-size: cover;
+        height: auto; 
+        background-position: none;
+        background-attachment: scroll;
         .container {
             padding: 0;
             margin: 0;
@@ -720,8 +732,9 @@
     }
     .header {
         background-attachment: fixed;
-        background-position: right -10px center;
-        height: 150vh;
+        background-size: cover;
+        height: auto; 
+        background-position: none;
         .container {
             padding: 0;
             margin: 0;
@@ -989,9 +1002,10 @@
     }
     .header {
         background-size: cover;
+        height: auto; 
         background-position: none;
         background-attachment: fixed;
-        height: auto; 
+       
         .container {
             padding: 0;
             margin: 0;
