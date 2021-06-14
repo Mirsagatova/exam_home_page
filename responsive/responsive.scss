@@ -40,7 +40,10 @@
         width: 700px;
     }
     .header {
-        height: auto;
+        background-size: cover;
+        height: auto; 
+        background-position: none;
+        background-attachment: scroll;
         .container {
             padding: 0;
             margin: 0;
@@ -56,8 +59,11 @@
                     margin: 0 auto 20px auto;
                 }
                 .left-arrow {
-                    top: 450.5px;
-                    
+                    left: -250px;
+                    top: 370.5px;
+                    outline: hidden;
+                    max-width: 200px;
+                    max-height: 50px;
                 }
                 .right-arrow {
                     display: none;
@@ -280,18 +286,29 @@
         
     }
     .header {
+        background-size: cover;
+        height: auto; 
+        background-position: none;
+        background-attachment: scroll;
         .container {
             padding: 0;
             margin: 0;
             width: 100%;
             .header-left-side {
                 width: 100%;
+                padding: 60px 0;
                 .header-title {
                     width: 60%;
                     margin: 0 auto 20px auto;
+                    font-size: 38px;
+                    line-height: 38px;
                 }
                 .left-arrow {
-                    top: 450.5px;
+                    left: -250px;
+                    top: 370.5px;
+                    outline: hidden;
+                    max-width: 200px;
+                    max-height: 50px;
                 }
                 .right-arrow {
                     img {
