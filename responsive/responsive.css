@@ -392,7 +392,7 @@
     top: 63px;
     left: -100%;
     background-color: #333a44;
-    height: 100vh;
+    height: auto;
     width: 60%;
     display: -webkit-box;
     display: -ms-flexbox;
