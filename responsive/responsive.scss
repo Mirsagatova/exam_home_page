@@ -32,7 +32,109 @@
 @media (max-width: 1130px) {
     .container {
         width: 850px;
-
+    }
+    .header {
+        background-size: cover;
+        height: auto; 
+        background-position: none;
+        background-attachment: scroll;
+        .container {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .header-left-side {
+                width: 75%;
+                text-align: center;
+                .header-title {
+                    width: 100%;
+                    margin: 0 auto 20px auto;
+                }
+                .left-arrow {
+                    left: -250px;
+                    top: 370.5px;
+                    outline: hidden;
+                    max-width: 200px;
+                    max-height: 50px;
+                }
+                .right-arrow {
+                    display: none;
+                    img {
+                        
+                    }
+                }
+                .left {
+                    width: 100%;
+                    padding: 0;
+                    margin: 0 auto 20px auto;
+                    .header-content {
+                        width: 80%;
+                        margin: 0 auto 20px auto;
+                        padding: 0;
+                    }
+                    .get-scootin {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+    .benefits {
+        .container {
+            .benefits-list {
+                .benefits-item:nth-child(2) {
+                }
+                .benefits-item {
+                    .benefits-left-side {
+                        .benefits-title {
+                        }
+                        .benefits-content {
+                        }
+                    }
+                    .benefits-right-side {
+                        .benefits-img {
+                            .image {
+                            }
+                        }
+                        #easy-image {
+                        }
+                        .easy-arrow {
+                        }
+                        #near-image {
+                        }
+                        .near-arrow {
+                        }
+                        #payment-image {
+                        }
+                        .payment-arrow {
+                            position: absolute;
+                            left: 0;
+                            transform: translate(130%, -155%);
+                            outline: hidden;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .availability {
+        
+        .container {
+            .availability-title {
+                width: 60%;
+                margin-bottom: 30px;
+            }
+            .links {
+                width: 55%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .apple-link {}
+                .google-link {}
+            }
+        }
     }
 }
 @media (max-width: 870px) {
